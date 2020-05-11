@@ -1,0 +1,33 @@
+<mat-toolbar text-align=center>
+  <span>Coronavirus COVID-19 Realtime Report</span>
+  &nbsp; &nbsp; &nbsp;
+  <span class="fill-remaining-space"></span>
+
+  
+  <a routerLink="/report" class="hyperlink-no-style">
+    <span class="span-btn-with-icon">
+      <span style="font-size: 15px">Table Report</span>
+      &nbsp;
+      <mat-icon >table_chart</mat-icon>
+    </span>
+  </a>
+  &nbsp; &nbsp; &nbsp;
+  <a routerLink="/map-report" class="hyperlink-no-style">
+    <span class="span-btn-with-icon">
+      <span style="font-size: 15px">Map Report</span>
+      &nbsp;
+      <mat-icon >map</mat-icon>
+    </span>
+  </a>
+  &nbsp; &nbsp; &nbsp;
+  <a routerLink="/us-report" class="hyperlink-no-style">
+    <span class="span-btn-with-icon">
+      <span style="font-size: 15px">US Report</span>
+      &nbsp;
+      <mat-icon >horizontal_split</mat-icon>
+    </span>
+  </a>
+</mat-toolbar>
+<div>
+  <router-outlet></router-outlet>
+</div>
